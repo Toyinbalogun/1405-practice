@@ -1,0 +1,13 @@
+print("Please answer yes or no to the questions below. ")
+
+question1 = input("1. Is there dirt here? ") #if this is yes it just vaccums
+
+
+if question1 == "no": #then it runs through this if it's no and it goes on to ask about space
+    question2 = input("2. Is there empty space ahead? ")
+    if question2 == "yes":
+        print("Move forward")
+    else:
+        print("turn right")
+else:
+    print("vacuum")
