@@ -7,8 +7,8 @@ m2 = float(input("Enter a distance in miles: "))
 m3 = float(input("Enter a distance in miles: "))
 
 km1 = m1 * 1.6
-km2 = m1 * 1.6
-km3 = m1 * 1.6
+km2 = m2 * 1.6
+km3 = m3 * 1.6
 
 closestkm1 = abs(15 - km1)
 closestkm2 = abs(15 - km2)
